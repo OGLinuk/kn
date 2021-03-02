@@ -68,7 +68,7 @@ func init() {
 	x.Summary = `install and manage cmdtab-based subcommands`
 	x.Description = ``
 	x.Examples = `
-		cm links github.com/oglinuk/cmdtab-links
+		kn cm links github.com/oglinuk/cmdtab-links
 	`
 	x.Method = func(args []string) error {
 		// We expect <subcommand name> and <subcommand link>

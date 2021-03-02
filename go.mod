@@ -4,7 +4,6 @@ go 1.16
 
 require (
 	github.com/litao91/goldmark-mathjax v0.0.0-20210217064022-a43cf739a50f
-	github.com/oglinuk/cmdtab-links v1.3.0
 	github.com/rwxrob/cmdtab v0.4.0
 	github.com/rwxrob/cmdtab-pomo v0.1.0
 	github.com/rwxrob/conf-go v0.4.2

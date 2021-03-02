@@ -1,11 +1,8 @@
 package cmdtab
+
 import (
 	"github.com/rwxrob/cmdtab"
-
 	_ "github.com/rwxrob/cmdtab-pomo"
-
-	_ "github.com/oglinuk/cmdtab-links"
-
 )
 
 func Execute(s string) {
@@ -14,31 +11,11 @@ func Execute(s string) {
 }
 
 func init() {
-	x := cmdtab.New(
-
-	"kn",
-
-	"day",
-
-	"cd",
-
-	"add",
-
-	"tstamp",
-
-	"html",
-
-	"epoch",
-
-	"pomo",
-
-	"links",
-
-	)
+	x := cmdtab.New("kn", "day", "cd", "cm", "add", "tstamp", "html", "epoch", "pomo")
 	x.Summary = ""
 	x.Version = "v1.0.0"
 	x.Author = "Rob Muhlestein <rob@rwx.gg> (rob.rwx.gg)"
-	x.Git = "github.com/rwxrob/kn"
+	x.Git = "https://github.com/rwxrob/kn"
 	x.Copyright = "(c) Rob Muhlestein"
 	x.License = "MPL-v2.0"
 	x.Description = ""
